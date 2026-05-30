@@ -78,13 +78,13 @@ def show_history(hist_list, my_set):
         print(my_set)
         
         print("\n----Positive Results Only----")
+
         # use filter to get numbers > 0
         pos_nums = list(filter(lambda num: num > 0, my_set))
         print(pos_nums)
 
 def main():
-    # dict for math using lambda
-    # division has if else to avoid error
+
     ops_dict = {
         '+': lambda x, y: x + y,
         '-': lambda x, y: x - y,
@@ -93,8 +93,8 @@ def main():
         '^': lambda x, y: x ** y
     }
 
-    hist_list = []          
-    my_set = set() 
+    hist_list = []     
+    my_set = set()
 
     print("----Functional Calculator----")
 
@@ -122,6 +122,6 @@ def main():
         else:
             print("Try Again")
 
-# run the code
+# run code
 if __name__ == "__main__":
     main()
