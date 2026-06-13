@@ -12,7 +12,7 @@ print (2 ** 2 ** 0) # 2
 print ((2 ** 2) ** 0) # 1
 print (6 // 2) # 3
 print (6 // 4) # 1
-print (6.0 / 4.0) # 1.5
+print (6 / 4) # 1.5
 print (2.0 // 2.5) # 0.0 floor division operator (//) returns the largest integer less than or equal to the result of the division. In this case, 2.0 divided by 2.5 is 0.8, and the largest integer less than or equal to 0.8 is 0. Therefore, the result of 2.0 // 2.5 is 0.0.
 print (2.0 / 2.5) # 0.8
 print (9.0 * 0.5) # 4.5

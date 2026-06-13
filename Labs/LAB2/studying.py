@@ -20,8 +20,10 @@ print (float(4))
 print (int(5.3))  
 print (int(True))  
 print (float(int(5.3)))  
-print (float(7) // 4)  
-print (int(7 / 4))  
+print (7 // 4)  #It depends on what is inside it + it will never give you 2.1 2.5 2.7 and ect it wil always give 2.0 4.0 9.0 and so on
+print (type(7 // 4))
+print (type(7.5 // 4))
+print (type(7 / 4)) # Unlike this one always float!  
 print (6.2 and False)  
 print (True and 6.2)  
 print (type(4.5))  
